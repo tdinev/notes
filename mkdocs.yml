@@ -2,6 +2,25 @@ site_name: Personal notes
 site_url: https://tdinev.github.io/notes
 theme:
   name: material
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+      primary: yellow
+      accent: light green
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+      primary: yellow
+      accent: light green
+  icon:
+    logo: material/book
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
