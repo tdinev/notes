@@ -21,6 +21,8 @@ theme:
       accent: lime
   icon:
     logo: material/book
+  features:
+    - content.code.copy
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
