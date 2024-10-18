@@ -9,16 +9,16 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
-      primary: yellow
-      accent: light green
+      primary: blue
+      accent: red
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
-      primary: yellow
-      accent: light green
+      primary: light green
+      accent: lime
   icon:
     logo: material/book
 markdown_extensions:
