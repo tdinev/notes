@@ -23,6 +23,8 @@ theme:
     logo: material/book
   features:
     - content.code.copy
+extra:
+  generator: false
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
