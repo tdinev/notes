@@ -17,7 +17,7 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
-      primary: light green
+      primary: indigo
       accent: lime
   icon:
     logo: material/book
