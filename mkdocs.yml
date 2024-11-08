@@ -2,7 +2,7 @@ site_name: Personal notes
 site_url: https://tdinev.github.io/notes
 theme:
   font:
-    test: Arvo
+    text: Arvo
   name: material
   palette:
     # Palette toggle for light mode
